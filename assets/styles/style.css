@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    background-color: #D47677;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 330px;
+    height: 330px;
+    background-color: #dbd1d0;
+    margin-top: 200px;
+    margin-left: 700px;
+}
+
+.UserAvatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: -80px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    font-weight: 500;
+
+}
+
+input {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+
+input:focus {
+    border: 2px solid dodgerblue;
+
+}
+
+#SignStyle{
+    background-color: #99DDE0;
+    width: 270px;
+    height: 35px;
+    align-self: center;
+}
+#username{
+    width: 270px;
+    height: 35px;
+    align-self: center;
+}
+#password{
+    width: 270px;
+    height: 35px;
+    align-self: center;
+}
+.fgfg{
+    display: flex;
+    justify-content: space-between;
+}
+#label1{
+    width: 30%;
+    display: contents;
+
+
+}
+span{
+    margin-left: -70px;
+}
+a{
+    margin-right: 30px;
+}
